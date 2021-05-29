@@ -7,25 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D16E29E82662ACEB0071BB77 /* Player_card_challengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16E29E72662ACEB0071BB77 /* Player_card_challengeApp.swift */; };
-		D16E29EA2662ACEB0071BB77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16E29E92662ACEB0071BB77 /* ContentView.swift */; };
-		D16E29EC2662ACFB0071BB77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D16E29EB2662ACFB0071BB77 /* Assets.xcassets */; };
-		D16E29EF2662ACFB0071BB77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D16E29EE2662ACFB0071BB77 /* Preview Assets.xcassets */; };
-		D16E29F72662B8DF0071BB77 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16E29F62662B8DF0071BB77 /* Card.swift */; };
+		D16E2A202662F1030071BB77 /* List_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16E2A1F2662F1030071BB77 /* List_ChallengeApp.swift */; };
+		D16E2A222662F1030071BB77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16E2A212662F1030071BB77 /* ContentView.swift */; };
+		D16E2A242662F1080071BB77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D16E2A232662F1080071BB77 /* Assets.xcassets */; };
+		D16E2A272662F1080071BB77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D16E2A262662F1080071BB77 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D16E29E42662ACEB0071BB77 /* Player-card-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Player-card-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D16E29E72662ACEB0071BB77 /* Player_card_challengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player_card_challengeApp.swift; sourceTree = "<group>"; };
-		D16E29E92662ACEB0071BB77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D16E29EB2662ACFB0071BB77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D16E29EE2662ACFB0071BB77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D16E29F02662ACFB0071BB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D16E29F62662B8DF0071BB77 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		D16E2A1C2662F1030071BB77 /* List-Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "List-Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D16E2A1F2662F1030071BB77 /* List_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_ChallengeApp.swift; sourceTree = "<group>"; };
+		D16E2A212662F1030071BB77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D16E2A232662F1080071BB77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D16E2A262662F1080071BB77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D16E2A282662F1080071BB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D16E29E12662ACEB0071BB77 /* Frameworks */ = {
+		D16E2A192662F1030071BB77 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,39 +33,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D16E29DB2662ACEB0071BB77 = {
+		D16E2A132662F1030071BB77 = {
 			isa = PBXGroup;
 			children = (
-				D16E29E62662ACEB0071BB77 /* Player-card-challenge */,
-				D16E29E52662ACEB0071BB77 /* Products */,
+				D16E2A1E2662F1030071BB77 /* List-Challenge */,
+				D16E2A1D2662F1030071BB77 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D16E29E52662ACEB0071BB77 /* Products */ = {
+		D16E2A1D2662F1030071BB77 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D16E29E42662ACEB0071BB77 /* Player-card-challenge.app */,
+				D16E2A1C2662F1030071BB77 /* List-Challenge.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D16E29E62662ACEB0071BB77 /* Player-card-challenge */ = {
+		D16E2A1E2662F1030071BB77 /* List-Challenge */ = {
 			isa = PBXGroup;
 			children = (
-				D16E29E72662ACEB0071BB77 /* Player_card_challengeApp.swift */,
-				D16E29E92662ACEB0071BB77 /* ContentView.swift */,
-				D16E29EB2662ACFB0071BB77 /* Assets.xcassets */,
-				D16E29F02662ACFB0071BB77 /* Info.plist */,
-				D16E29ED2662ACFB0071BB77 /* Preview Content */,
-				D16E29F62662B8DF0071BB77 /* Card.swift */,
+				D16E2A1F2662F1030071BB77 /* List_ChallengeApp.swift */,
+				D16E2A212662F1030071BB77 /* ContentView.swift */,
+				D16E2A232662F1080071BB77 /* Assets.xcassets */,
+				D16E2A282662F1080071BB77 /* Info.plist */,
+				D16E2A252662F1080071BB77 /* Preview Content */,
 			);
-			path = "Player-card-challenge";
+			path = "List-Challenge";
 			sourceTree = "<group>";
 		};
-		D16E29ED2662ACFB0071BB77 /* Preview Content */ = {
+		D16E2A252662F1080071BB77 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D16E29EE2662ACFB0071BB77 /* Preview Assets.xcassets */,
+				D16E2A262662F1080071BB77 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -75,38 +72,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D16E29E32662ACEB0071BB77 /* Player-card-challenge */ = {
+		D16E2A1B2662F1030071BB77 /* List-Challenge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D16E29F32662ACFB0071BB77 /* Build configuration list for PBXNativeTarget "Player-card-challenge" */;
+			buildConfigurationList = D16E2A2B2662F1080071BB77 /* Build configuration list for PBXNativeTarget "List-Challenge" */;
 			buildPhases = (
-				D16E29E02662ACEB0071BB77 /* Sources */,
-				D16E29E12662ACEB0071BB77 /* Frameworks */,
-				D16E29E22662ACEB0071BB77 /* Resources */,
+				D16E2A182662F1030071BB77 /* Sources */,
+				D16E2A192662F1030071BB77 /* Frameworks */,
+				D16E2A1A2662F1030071BB77 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Player-card-challenge";
-			productName = "Player-card-challenge";
-			productReference = D16E29E42662ACEB0071BB77 /* Player-card-challenge.app */;
+			name = "List-Challenge";
+			productName = "List-Challenge";
+			productReference = D16E2A1C2662F1030071BB77 /* List-Challenge.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D16E29DC2662ACEB0071BB77 /* Project object */ = {
+		D16E2A142662F1030071BB77 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					D16E29E32662ACEB0071BB77 = {
+					D16E2A1B2662F1030071BB77 = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
-			buildConfigurationList = D16E29DF2662ACEB0071BB77 /* Build configuration list for PBXProject "Player-card-challenge" */;
+			buildConfigurationList = D16E2A172662F1030071BB77 /* Build configuration list for PBXProject "List-Challenge" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,43 +111,42 @@
 				en,
 				Base,
 			);
-			mainGroup = D16E29DB2662ACEB0071BB77;
-			productRefGroup = D16E29E52662ACEB0071BB77 /* Products */;
+			mainGroup = D16E2A132662F1030071BB77;
+			productRefGroup = D16E2A1D2662F1030071BB77 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D16E29E32662ACEB0071BB77 /* Player-card-challenge */,
+				D16E2A1B2662F1030071BB77 /* List-Challenge */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D16E29E22662ACEB0071BB77 /* Resources */ = {
+		D16E2A1A2662F1030071BB77 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D16E29EF2662ACFB0071BB77 /* Preview Assets.xcassets in Resources */,
-				D16E29EC2662ACFB0071BB77 /* Assets.xcassets in Resources */,
+				D16E2A272662F1080071BB77 /* Preview Assets.xcassets in Resources */,
+				D16E2A242662F1080071BB77 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D16E29E02662ACEB0071BB77 /* Sources */ = {
+		D16E2A182662F1030071BB77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D16E29EA2662ACEB0071BB77 /* ContentView.swift in Sources */,
-				D16E29F72662B8DF0071BB77 /* Card.swift in Sources */,
-				D16E29E82662ACEB0071BB77 /* Player_card_challengeApp.swift in Sources */,
+				D16E2A222662F1030071BB77 /* ContentView.swift in Sources */,
+				D16E2A202662F1030071BB77 /* List_ChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D16E29F12662ACFB0071BB77 /* Debug */ = {
+		D16E2A292662F1080071BB77 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -211,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		D16E29F22662ACFB0071BB77 /* Release */ = {
+		D16E2A2A2662F1080071BB77 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,44 +262,44 @@
 			};
 			name = Release;
 		};
-		D16E29F42662ACFB0071BB77 /* Debug */ = {
+		D16E2A2C2662F1080071BB77 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Player-card-challenge/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"List-Challenge/Preview Content\"";
 				DEVELOPMENT_TEAM = 9BFGB3JLGU;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Player-card-challenge/Info.plist";
+				INFOPLIST_FILE = "List-Challenge/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.stillsine.Player-card-challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stillsine.List-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D16E29F52662ACFB0071BB77 /* Release */ = {
+		D16E2A2D2662F1080071BB77 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Player-card-challenge/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"List-Challenge/Preview Content\"";
 				DEVELOPMENT_TEAM = 9BFGB3JLGU;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Player-card-challenge/Info.plist";
+				INFOPLIST_FILE = "List-Challenge/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.stillsine.Player-card-challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stillsine.List-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,25 +309,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D16E29DF2662ACEB0071BB77 /* Build configuration list for PBXProject "Player-card-challenge" */ = {
+		D16E2A172662F1030071BB77 /* Build configuration list for PBXProject "List-Challenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D16E29F12662ACFB0071BB77 /* Debug */,
-				D16E29F22662ACFB0071BB77 /* Release */,
+				D16E2A292662F1080071BB77 /* Debug */,
+				D16E2A2A2662F1080071BB77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D16E29F32662ACFB0071BB77 /* Build configuration list for PBXNativeTarget "Player-card-challenge" */ = {
+		D16E2A2B2662F1080071BB77 /* Build configuration list for PBXNativeTarget "List-Challenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D16E29F42662ACFB0071BB77 /* Debug */,
-				D16E29F52662ACFB0071BB77 /* Release */,
+				D16E2A2C2662F1080071BB77 /* Debug */,
+				D16E2A2D2662F1080071BB77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D16E29DC2662ACEB0071BB77 /* Project object */;
+	rootObject = D16E2A142662F1030071BB77 /* Project object */;
 }
