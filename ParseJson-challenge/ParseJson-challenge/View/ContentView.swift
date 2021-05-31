@@ -15,14 +15,30 @@ struct ContentView: View {
         VStack {
             List(model.pizzaOrder) { elm in
                 VStack(alignment: .leading) {
-                Text(elm.name)
-            
-                    HStack(alignment: .center) {
-                        Text(elm.toppings[0])
-                        Text(elm.toppings[1])
-                        Text(elm.toppings[2])
-                
+                    HStack(alignment: .top) {
+                        Image(elm.image)
+                            .resizable()
+                            .scaledToFill()
+                            .frame(width: 50, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            .clipped()
+                        VStack(alignment: .leading) {
+                            
+                        
+                            Text(elm.name)
+                                .multilineTextAlignment(.trailing)
+                            
+                            HStack{
+                                Text(elm.toppings[0])
+                                Text(elm.toppings[1])
+                                Text(elm.toppings[2])
+                            }
+                            .font(.caption)
+                        }
+                           
+                    
                     }
+              
+                 
                      
                 
                 }

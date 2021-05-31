@@ -1,11 +1,14 @@
 [
   { "name":"Meat Lovers",
-    "toppings": ["Pepperoni", "Bacon", "Sausage"]
+    "toppings": ["Pepperoni", "Bacon", "Sausage"],
+    "image": "meatlovers"
   },
   { "name":"Hawaiian",
-    "toppings": ["Ham", "Bacon", "Pineapple"]
+    "toppings": ["Ham", "Bacon", "Pineapple"],
+    "image": "hawaiian"
   },
   { "name":"Deluxe",
-    "toppings": ["Pepperoni", "Green Peppers", "Mushroom"]
+    "toppings": ["Pepperoni", "Green Peppers", "Mushroom"],
+    "image": "deluxe"
   }
 ]
