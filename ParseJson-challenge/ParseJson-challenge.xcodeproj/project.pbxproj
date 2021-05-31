@@ -14,6 +14,7 @@
 		D1E444A326647E2800D13F2E /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = D1E444A226647E2800D13F2E /* data.json */; };
 		D1E444A82664808900D13F2E /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E444A72664808900D13F2E /* Pizza.swift */; };
 		D1E444AA266481BA00D13F2E /* PizzaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E444A9266481BA00D13F2E /* PizzaModel.swift */; };
+		D1E444D82665859400D13F2E /* PizzaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E444D72665859400D13F2E /* PizzaDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D1E444A226647E2800D13F2E /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		D1E444A72664808900D13F2E /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 		D1E444A9266481BA00D13F2E /* PizzaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaModel.swift; sourceTree = "<group>"; };
+		D1E444D72665859400D13F2E /* PizzaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				D1E4449226647B5000D13F2E /* ContentView.swift */,
+				D1E444D72665859400D13F2E /* PizzaDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			files = (
 				D1E4449326647B5000D13F2E /* ContentView.swift in Sources */,
 				D1E4449126647B5000D13F2E /* ParseJson_challengeApp.swift in Sources */,
+				D1E444D82665859400D13F2E /* PizzaDetailView.swift in Sources */,
 				D1E444AA266481BA00D13F2E /* PizzaModel.swift in Sources */,
 				D1E444A82664808900D13F2E /* Pizza.swift in Sources */,
 			);
