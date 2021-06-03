@@ -33,7 +33,20 @@ struct ContentView: View {
     var body: some View {
       
         VStack {
+            //Geo frame geo.frame is for uniuversal
+            //Local is inside the parent frame
+            GeometryReader { geo in
+                Rectangle()
+                    .frame(width: geo.size.width/4, height: geo.size.height/3.5)
+                    .onTapGesture {
+                        print("Hello")
+                    }
+            }
             
+            
+            Rectangle()
+                .foregroundColor(.red )
+                .offset(x: 30, y: 30)
             List(arr, id: \.self) { elm in
                 Text(String(elm))
             }
