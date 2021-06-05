@@ -8,12 +8,14 @@
 import SwiftUI
 
 struct PersonSettings: View {
+    // Set to viewmodel
     @EnvironmentObject var model:PersonModel
 
 
     var body: some View {
         VStack{
             Toggle("Show name",  isOn: $model.showName )
+                .toggleStyle(SwitchToggleStyle(tint: .red))
             Toggle("Show address",  isOn: $model.showAddress )
             Toggle("Show company",  isOn: $model.showCompany )
             Toggle("Show year",  isOn: $model.showYear )
