@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Book: Decodable, Identifiable {
+struct Book: Decodable, Identifiable {
     var image = ""
      var title = ""
      var author = ""

@@ -47,8 +47,8 @@ struct BaseBooks: View {
 
 struct BaseBooks_Previews: PreviewProvider {
     static var previews: some View {
-        let bookModel = BookModel()
         
-        BaseBooks(book: bookModel.booksArr[0])
+        BaseBooks(book: Book())
+            .environmentObject(BookModel())
     }
 }
