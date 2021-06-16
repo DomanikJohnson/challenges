@@ -16,7 +16,7 @@ struct ContentView: View {
                 LazyVStack{
                     ForEach(model.booksArr) { book in
                         NavigationLink(
-                            destination: /*@START_MENU_TOKEN@*/Text("Destination")/*@END_MENU_TOKEN@*/,
+                            destination: SingleBookView(book: book),
                             label: {
                                 BaseBooks(book: book)
                             })
@@ -25,7 +25,7 @@ struct ContentView: View {
              
 
                     }
-                }
+                }.navigationBarTitle("My Library")
             }
         
     }

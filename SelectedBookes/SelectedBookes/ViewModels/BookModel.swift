@@ -47,4 +47,20 @@ class BookModel: ObservableObject {
         // return empty array
         return [Book]()
         }
+    
+    func updateRating(forid: Int, pick:Int) {
+        if let val = booksArr.firstIndex(where: {$0.id == forid}) {
+            booksArr[val].rating = pick
+        }
+        
+    }
+    
+    
+    func updateFavorite(forid:Int) {
+        if let val = booksArr.firstIndex(where: {$0.id == forid}) {
+            booksArr[val].isFavourite.toggle()
+            print(booksArr[val].isFavourite)
+        }
+        
+    }
 }
