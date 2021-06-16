@@ -59,8 +59,13 @@ class BookModel: ObservableObject {
     func updateFavorite(forid:Int) {
         if let val = booksArr.firstIndex(where: {$0.id == forid}) {
             booksArr[val].isFavourite.toggle()
-            print(booksArr[val].isFavourite)
         }
-        
+    
+    }
+    
+    func updatePage(forId: Int, page: Int) {
+        if let index = booksArr.firstIndex(where: { $0.id == forId }) {
+            booksArr[index].currentPage = page
+        }
     }
 }

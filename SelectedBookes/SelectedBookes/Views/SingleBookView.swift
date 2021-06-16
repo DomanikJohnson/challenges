@@ -13,16 +13,22 @@ struct SingleBookView: View {
     @State var pick =  1
     @State var star = "star"
     var body: some View {
+ 
         VStack {
             Spacer()
             Text(book.title)
             Text(book.author)
         
+            NavigationLink(
+                destination: BookPageView(book: book),
+                label: {
+                
+             
             Image(book.image)
                 .resizable()
                 .scaledToFit()
                 .frame(width: 350, height: 400, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-            
+                })
          
                 Text("Favorite!")
                 Button(action: {
@@ -61,7 +67,7 @@ struct SingleBookView: View {
             
             
         }
-    }
+        }
 }
 
 struct SingleBookView_Previews: PreviewProvider {
